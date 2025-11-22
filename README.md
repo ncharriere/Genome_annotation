@@ -28,7 +28,6 @@ The structure of this work is the following:
 | File / Folder | Description |
 |--------------|-------------|
 | `scripts/`   | All scripts used for the analysis (Bash, Python, R). |
-| `data/`      | Input data (genome, reference proteins, annotation databases, etc.). |
 | `report/`    | Final written report containing detailed results, figures, and interpretations. |
 | `README.md`  | Overview and documentation of the project. |
   
@@ -42,7 +41,7 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 - **RepeatMasker**: Genome repeat masking
 - **AUGUSTUS v3.4.0**: Gene prediction used by MAKER
 - **OpenMPI v4.1.1**: Parallel execution of MAKER
-- **InterProScan (latest)**: Protein domain annotation and GO term assignment
+- **InterProScan (latest; used the 29 october 2025)**: Protein domain annotation and GO term assignment
 - **MAKER auxiliary scripts** (ipr_update_gff, AED_cdf_generator.pl, quality_filter.pl): GFF update, AED calculation, and quality filtering
 - **UCSC faSomeRecords**: Extract sequences from FASTA files by list of IDs
 - **MariaDB v10.6.4**: Database backend required by UCSC utilities
@@ -51,10 +50,10 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 - **BUSCO v5.4.2**: Benchmarking Universal Single-Copy Orthologs; completeness assessment of gene annotation
 - **BLAST+ v2.15.0**: Protein similarity searches against UniProt and TAIR10 databases
 - **MAKER auxiliary tools** (maker_functional_fasta, maker_functional_gff): Functional annotation based on BLAST hits
-- **GENESPACE (latest)**: Comparative genomics and synteny analysis
+- **GENESPACE (latest; used the 5 november 2025)**: Comparative genomics and synteny analysis
 - **R / Rscript**: Required to run GENESPACE pipeline
 - **Apptainer / Singularity**: Containerized execution for reproducibility
-- **GENESPACE (R package, latest)**: Comparative genomics, synteny analysis, pangenome inference
+- **GENESPACE (R package, latest; used the 5 november 2025)**: Comparative genomics, synteny analysis, pangenome inference
 - **MCScanX**: Collinearity and synteny detection engine used by GENESPACE
 - **R / Rscript**: Execution of GENESPACE scripts
 - **Bash / awk**: Processing and cleaning protein FASTA files for GENESPACE input
