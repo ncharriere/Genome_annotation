@@ -1,4 +1,5 @@
 # Organization and Annotation of Eukaryote Genomes
+**Student**: Charrière Noé
 ## UE-SBL.30004 — AS-2025
 This repository contains all the work completed for the course Organization and Annotation of Eukaryote Genomes (UE-SBL.30004) at the University Fribourg.  
 This project focuses on the structural and functional annotation of the Altai-5 genome, using standard bioinformatics tools and reproducible workflows.  
