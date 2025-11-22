@@ -48,6 +48,16 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 - **Python v3.9.5**: Used for custom scripts processing FASTA sequences
 - **Biopython**: Library to parse and manipulate FASTA sequences
 - **BUSCO v5.4.2**: Benchmarking Universal Single-Copy Orthologs; completeness assessment of gene annotation
+- **BLAST+ v2.15.0**: Protein similarity searches against UniProt and TAIR10 databases
+- **MAKER auxiliary tools** (maker_functional_fasta, maker_functional_gff): Functional annotation based on BLAST hits
+- **GENESPACE (latest)**: Comparative genomics and synteny analysis
+- **R / Rscript**: Required to run GENESPACE pipeline
+- **Apptainer / Singularity**: Containerized execution for reproducibility
+- **GENESPACE (R package, latest)**: Comparative genomics, synteny analysis, pangenome inference
+- **MCScanX**: Collinearity and synteny detection engine used by GENESPACE
+- **R / Rscript**: Execution of GENESPACE scripts
+- **Bash / awk**: Processing and cleaning protein FASTA files for GENESPACE input
+- **SLURM**: Job scheduling and resource allocation on the cluster
 
 
 ## How to run scripts
