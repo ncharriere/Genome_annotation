@@ -8,7 +8,7 @@ You will find in this repositery all the scripts used throughout the analyses, a
 ## Project Overview
 The aim of this project is to explore the genomic organization of the *Arabidopsis thaliana* organism and perform a full annotation workflow. I specifically worked on Altai-5 organism.  
   
-The data used in this project originate from Lian et al. (2024) who published the pan-genome of 69 Arabidopsis thaliana accessions. We re-analysed their dataset in the context of the course. [DOI: 10.1038/s41588-024-01715-9]
+The data used in this project originate from Lian et al. (2024) who published the pan-genome of 69 Arabidopsis thaliana accessions. We re-analysed their dataset in the context of the course. [DOI: 10.1038/s41588-024-01715-9]  
 The dataset is the ERR11437324_Altai-5.fa from Lian et al. (2024) and was compared with the accession Etna-2; Ice-1; Taz-0; TAIR10 from the same paper.
   
 The structure of this work is the following:
@@ -64,8 +64,3 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 ## How to run scripts
 **Execution environment:** Analyses were performed on the University of Bern HPC cluster (`hpc.binf.unibe.ch`) using SLURM for job scheduling. All tools were run via Apptainer/Singularity containers to ensure reproducibility and a consistent software environment.
 
-## Github functions
-- git add #nom du fichier/directory
-- git commit -m "#expliquer ce que c'est"
-- git push
-- git pull (pour revenir en arrièreet importer depuis github une modif)
