@@ -61,7 +61,7 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 
 
 ## How to run scripts
-**Reproducibility:** All tools were executed via Apptainer/Singularity containers to ensure a consistent environment.
+**Execution environment:** Analyses were performed on the University of Bern HPC cluster (`hpc.binf.unibe.ch`) using SLURM for job scheduling. All tools were run via Apptainer/Singularity containers to ensure reproducibility and a consistent software environment.
 
 ## Github functions
 - git add #nom du fichier/directory
