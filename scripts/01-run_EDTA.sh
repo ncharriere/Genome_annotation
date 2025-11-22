@@ -4,11 +4,10 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=200G
 #SBATCH --time=2-00:00
-#SBATCH --output=/data/users/ncharriere/TE_annotation/logs/%x_%j.out
-#SBATCH --error=/data/users/ncharriere/TE_annotation/logs//%x_%j.err
+#SBATCH --output=/data/users/ncharriere/TE_annotation/logs/EDTA_%x_%j.out
+#SBATCH --error=/data/users/ncharriere/TE_annotation/logs/EDTA_%x_%j.err
 
 WORKDIR=/data/users/ncharriere/TE_annotation
-CONTAINER=$WORKDIR/data/EDTA2.2.sif
 CDS_FILE=$WORKDIR/data/TAIR10_cds_20110103_representative_gene_model_updated
 OUTDIR=$WORKDIR/results/EDTA_annotation
 

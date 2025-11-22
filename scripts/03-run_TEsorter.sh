@@ -4,8 +4,8 @@
 #SBATCH --cpus-per-task=20
 #SBATCH --mem=64G
 #SBATCH --time=2-00:00
-#SBATCH --output=/data/users/ncharriere/TE_annotation/logs/%x_%j.out
-#SBATCH --error=/data/users/ncharriere/TE_annotation/logs//%x_%j.err
+#SBATCH --output=/data/users/ncharriere/TE_annotation/logs/TEsorter_%x_%j.out
+#SBATCH --error=/data/users/ncharriere/TE_annotation/logs/TEsorter_%x_%j.err
 
 WORKDIR=/data/users/ncharriere/TE_annotation/results/EDTA_annotation
 
