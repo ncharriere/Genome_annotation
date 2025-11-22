@@ -29,6 +29,9 @@ The structure of this work is the following:
 | `data/`      | Input data (genome, reference proteins, annotation databases, etc.). |
 | `report/`    | Final written report containing detailed results, figures, and interpretations. |
 | `README.md`  | Overview and documentation of the project. |
+  
+**Note:** Only the scripts necessary to reproduce the final analyses are included.  
+Some scripts from intermediate steps have been omitted for brevity, so the numbering may not be consecutive.
 
 ## Tools used
 - **EDTA v2.2**: Genome-wide TE annotation and composition analysis
