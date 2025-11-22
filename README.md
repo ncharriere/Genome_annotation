@@ -21,6 +21,13 @@ The structure of this work is the following:
 - Orthology-based gene functional annotation and genome comparisons
     - Functional annotation through orthology inference using OrthoFinder
     - GENESPACE: Genome comparison and synteny analysis
+## Repository Structure
+File / Folder	Description
+scripts/	All scripts used for the analysis (Bash, Python, etc.).
+data/	Input data (genome, reference proteins, annotation databases, etc.).
+results/	Outputs generated during the annotation pipeline.
+report/	Final written report containing detailed results, figures, and interpretations.
+README.md	Overview and documentation of the project.
 ## Tools used
 
 
