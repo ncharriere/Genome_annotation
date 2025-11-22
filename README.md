@@ -37,6 +37,13 @@ The structure of this work is the following:
 - **RepeatMasker**: Genome repeat masking
 - **AUGUSTUS v3.4.0**: Gene prediction used by MAKER
 - **OpenMPI v4.1.1**: Parallel execution of MAKER
+- **InterProScan (latest)**: Protein domain annotation and GO term assignment
+- **MAKER auxiliary scripts** (ipr_update_gff, AED_cdf_generator.pl, quality_filter.pl): GFF update, AED calculation, and quality filtering
+- **UCSC faSomeRecords**: Extract sequences from FASTA files by list of IDs
+- **MariaDB v10.6.4**: Database backend required by UCSC utilities
+- **Python v3.9.5**: Used for custom scripts processing FASTA sequences
+- **Biopython**: Library to parse and manipulate FASTA sequences
+- **BUSCO v5.4.2**: Benchmarking Universal Single-Copy Orthologs; completeness assessment of gene annotation
 
 
 ## How to run scripts
