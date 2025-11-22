@@ -32,7 +32,16 @@ The structure of this work is the following:
 | `README.md`  | Overview and documentation of the project. |
 
 ## Tools used
+- **EDTA v2.2**: Genome-wide TE annotation and composition analysis
+- **TEsorter v1.3.0**: Fine-scale TE classification using consensus sequences
+- **MAKER v3.01.03**: Structural gene prediction
+- **RepeatMasker**: Genome repeat masking
+- **AUGUSTUS v3.4.0**: Gene prediction used by MAKER
+- **OpenMPI v4.1.1**: Parallel execution of MAKER
 
+
+## How to run scripts
+**Reproducibility:** All tools were executed via Apptainer/Singularity containers to ensure a consistent environment.
 
 ## Github functions
 - git add #nom du fichier/directory
