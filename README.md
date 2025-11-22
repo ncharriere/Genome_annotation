@@ -63,3 +63,5 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 ## How to run scripts
 **Execution environment:** Analyses were performed on the University of Bern HPC cluster (`hpc.binf.unibe.ch`) using SLURM for job scheduling. All tools were run via Apptainer/Singularity containers to ensure reproducibility and a consistent software environment.
 
+## Report
+The report contains the key results and representative figures, accompanied by brief explanations of the observations and the tools or scripts used to generate them.
