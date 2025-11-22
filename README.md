@@ -65,3 +65,6 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 
 ## Report
 The report contains the key results and representative figures, accompanied by brief explanations of the observations and the tools or scripts used to generate them.
+
+## Acknowledgements
+I would like to thank the course instructors and teaching assistants for their guidance and support throughout this project.
