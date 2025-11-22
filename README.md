@@ -1,8 +1,9 @@
 # Organization and Annotation of Eukaryote Genomes
 ## UE-SBL.30004 — AS-2025
 This repository contains all the work completed for the course Organization and Annotation of Eukaryote Genomes (UE-SBL.30004) at the University Fribourg.  
-This project focuses on the structural and functional annotation of the Altai-5 genome, using standard bioinformatics tools and reproducible workflows.
-
+This project focuses on the structural and functional annotation of the Altai-5 genome, using standard bioinformatics tools and reproducible workflows.  
+  
+You will find in this repositery all the scripts used throughout the analyses, as well as a report summarizing the main results.
 ## Project Overview
 The aim of this project is to explore the genomic organization of the *Arabidopsis thaliana* organism and perform a full annotation workflow. I specifically worked on Altai-5 organism.  
   
