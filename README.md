@@ -25,7 +25,7 @@ The structure of this work is the following:
 
 | File / Folder | Description |
 |--------------|-------------|
-| `scripts/`   | All scripts used for the analysis (Bash, Python, etc.). |
+| `scripts/`   | All scripts used for the analysis (Bash, Python, R). |
 | `data/`      | Input data (genome, reference proteins, annotation databases, etc.). |
 | `results/`   | Outputs generated during the annotation pipeline. |
 | `report/`    | Final written report containing detailed results, figures, and interpretations. |
