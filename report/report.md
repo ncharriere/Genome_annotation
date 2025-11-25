@@ -11,34 +11,22 @@ All commands and tool versions are documented in the README; this report focuses
 ## Results
 
 ### Figure 01 - full LTR retrotransposon 
-
-<br>
-
-<div align="center">
-
-![Figure 01 - full LTR retrotransposon PDF](figures/01_LTR_Copia_Gypsy_cladelevel.pdf)
-
-</div>
-
-<br>
-
+  
 Figure 01. *This figure shows the number of full-length LTR retrotransposons detected in the genome. These complete elements include both LTRs and internal coding domains, indicating potentially intact or recently active transposons. Their abundance highlights the important role of LTR elements in shaping genome structure and evolution.*
+
+\begin{center}
+![Figure 01 - full LTR retrotransposon PDF](figures/01_LTR_Copia_Gypsy_cladelevel.pdf)
+\end{center}
 
 ### Figure 02 - TE landscape
 
 #### Figure 02a - TE landscape 
-
-<br>
-
-<div align="center">
-
-![Figure 02a - TE landscape PDF](figures/02a_TE_landscape.pdf)
-
-</div>
-
-<br>
-
+  
 Figure 02a. *This figure show the distribution of transposable elements (TEs) in the genome based on their divergence from the consensus sequence. The X-axis represents percent divergence, while the Y-axis shows the sequence amount in Mbp for each TE superfamily. Peaks at low divergence (or low age) indicate recent TE activity, whereas broader peaks at higher values reflect older waves of insertions.*  
+
+\begin{center}
+![Figure 02a - TE landscape PDF](figures/02a_TE_landscape.pdf)
+\end{center}
 
 #### Figure 02b - TE landscape with age 
 
