@@ -82,4 +82,6 @@ Figure 03d. *This final circos plot builds on Figure 03b by adding the locations
 | rDNA      | 45S            | 3125   | 2412227   | 1.50%    |
 | Total     | -              | 29970  | 24230307  | 15.05%   |
 
+Figure 04. *Summary of transposable element (TE) annotation from EDTA. Columns indicate the TE class, subtype (if applicable), number of sequences, total bases masked, and percentage of the genome masked. Totals for all elements are provided at the bottom.*
+
 ### Figure 05 - 
