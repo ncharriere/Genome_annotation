@@ -51,13 +51,14 @@ Some scripts from intermediate steps have been omitted for brevity, so the numbe
 - **BLAST+ v2.15.0**: Protein similarity searches against UniProt and TAIR10 databases
 - **MAKER auxiliary tools** (maker_functional_fasta, maker_functional_gff): Functional annotation based on BLAST hits
 - **GENESPACE (latest; used the 5 november 2025)**: Comparative genomics and synteny analysis
-- **R / Rscript**: Required to run GENESPACE pipeline
+- **R / Rscript**: Required to run GENESPACE pipeline, GENESPACE scripts
 - **Apptainer / Singularity**: Containerized execution for reproducibility
 - **GENESPACE (R package, latest; used the 5 november 2025)**: Comparative genomics, synteny analysis, pangenome inference
 - **MCScanX**: Collinearity and synteny detection engine used by GENESPACE
-- **R / Rscript**: Execution of GENESPACE scripts
 - **Bash / awk**: Processing and cleaning protein FASTA files for GENESPACE input
 - **SLURM**: Job scheduling and resource allocation on the cluster
+- **BioPerl v1.7.8 (GCCcore 10.3.0)**: Perl libraries for biological sequence parsing and manipulation
+- **parseRM.pl (v. latest, 4ureliek/Parsing-RepeatMasker-Outputs)**: Parsing RepeatMasker outputs for TE annotation. Script used from [GitHub repository](https://github.com/4ureliek/Parsing-RepeatMasker-Outputs).
 
 
 ## How to run scripts
