@@ -6,5 +6,5 @@ The goal was to perform transposable elements annotation and classification, ann
 All commands and tool versions are documented in the README; this report focuses exclusively on the obtained results.
 ## Results
 ### Figure 1 - full LTR retrotransposon
-![Figure 1 - full LTR retrotransposon](/data/users/ncharriere/report/figures/01_LTR_Copia_Gypsy_cladelevel.png)
+![Figure 1 - full LTR retrotransposon](figures/01_LTR_Copia_Gypsy_cladelevel.pdf)
 The figure shows the number of full-length LTR retrotransposons detected in the genome. These complete elements include both LTRs and internal coding domains, indicating potentially intact or recently active transposons. Their abundance highlights the important role of LTR elements in shaping the structure and evolution of the genome.
