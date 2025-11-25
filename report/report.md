@@ -10,7 +10,9 @@ All commands and tool versions are documented in the README; this report focuses
 
 ## Results
 
-### Figure 01 - full LTR retrotransposon
+### Figure 01 - full LTR retrotransposon 
+
+<br>
 
 <div align="center">
 
@@ -24,7 +26,9 @@ Figure 01. *This figure shows the number of full-length LTR retrotransposons det
 
 ### Figure 02 - TE landscape
 
-#### Figure 02a - TE landscape
+#### Figure 02a - TE landscape 
+
+<br>
 
 <div align="center">
 
@@ -36,9 +40,9 @@ Figure 01. *This figure shows the number of full-length LTR retrotransposons det
 
 Figure 02a. *This figure show the distribution of transposable elements (TEs) in the genome based on their divergence from the consensus sequence. The X-axis represents percent divergence, while the Y-axis shows the sequence amount in Mbp for each TE superfamily. Peaks at low divergence (or low age) indicate recent TE activity, whereas broader peaks at higher values reflect older waves of insertions.*  
 
-\newpage
+#### Figure 02b - TE landscape with age 
 
-#### Figure 02b - TE landscape with age
+<br>
 
 <div align="center">
 
@@ -50,11 +54,11 @@ Figure 02a. *This figure show the distribution of transposable elements (TEs) in
 
 Figure 02b. *This figure show the distribution of transposable elements (TEs) in the genome based on the estimated insertion age (in million years) using the substitution rate. The X-axis represents estimated insertion age, while the Y-axis shows the sequence amount in Mbp for each TE superfamily.*
 
-\newpage
-
 ### Figure 03 - Genome circular overview
 
 #### Figure 03a - Contigs ordered by size
+
+<br>
 
 <div align="center">
 
@@ -68,6 +72,8 @@ Figure 03a. *This circular plot shows the distribution of transposable elements 
 
 #### Figure 03b - Contigs ordered by chromosomal location
 
+<br>
+
 <div align="center">
 
 ![Figure 03b - Contigs ordered by chromosomal location](figures/03b-TE_and_genes_density_rearranged.pdf)
@@ -80,6 +86,8 @@ Figure 03b. *Here, contigs are ordered according to their inferred chromosomal p
 
 #### Figure 03c - TE and rRNA localization
 
+<br>
+
 <div align="center">
 
 ![Figure 03c - TE and rRNA localization](figures/03c-TE_and_genes_density_rRNA.pdf)
@@ -91,6 +99,8 @@ Figure 03b. *Here, contigs are ordered according to their inferred chromosomal p
 Figure 03c. *This circular plot overlays rRNA loci on the previous visualization. rRNAs are normally expected at two canonical locations (nucleolar organizer regions, NORs, on chromosomes 2 and 4), but additional expressed rRNA regions are observed in this genome.*
 
 #### Figure 03d - Contigs ordered by chromosomal location with centromeres
+
+<br>
 
 <div align="center">
 
