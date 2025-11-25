@@ -56,4 +56,30 @@ Figure 03c. *This circular plot overlays rRNA loci on the previous visualization
 
 Figure 03d. *This final circos plot builds on Figure 03b by adding the locations of centromeres (in blue) and chromosome boundaries (in red). Most centromeres appear split across different contigs, which is expected due to the highly repetitive nature of these regions.*
 
+### Figure 04 - Summary table of EDTA
 
+| Class     | Subtype        | Count  | bp Masked | % Masked |
+|-----------|----------------|-------:|----------:|---------:|
+| LINE      |                | --     | --        | --       |
+|           | L1             | 1014   | 613124    | 0.38%    |
+| LTR       |                | --     | --        | --       |
+|           | Copia          | 987    | 1022109   | 0.63%    |
+|           | Gypsy          | 2767   | 3855525   | 2.40%    |
+|           | unknown        | 7236   | 7523764   | 4.67%    |
+| SINE      |                | --     | --        | --       |
+|           | tRNA           | 1549   | 1728290   | 1.07%    |
+| TIR       |                | --     | --        | --       |
+|           | CACTA          | 775    | 630847    | 0.39%    |
+|           | Mutator        | 1962   | 1016227   | 0.63%    |
+|           | PIF_Harbinger  | 1019   | 429237    | 0.27%    |
+|           | Tc1_Mariner    | 208    | 77443     | 0.05%    |
+|           | hAT            | 516    | 172673    | 0.11%    |
+| nonLTR    |                | --     | --        | --       |
+|           | pararetrovirus | 19     | 28616     | 0.02%    |
+| nonTIR    |                | --     | --        | --       |
+|           | helitron       | 7242   | 4310027   | 2.68%    |
+| rDNA      |                | --     | --        | --       |
+| rDNA      | 45S            | 3125   | 2412227   | 1.50%    |
+| Total     | -              | 29970  | 24230307  | 15.05%   |
+
+### Figure 05 - 
