@@ -19,11 +19,11 @@ Figure 01. *This figure shows the number of full-length LTR retrotransposons det
 
 **Figure 02a - TE landscape**  
 
-[Figure 02a - TE landscape PDF](figures/02a_TE_landscape.pdf)  
+![Figure 02a - TE landscape PDF](figures/02a_TE_landscape.pdf)  
 
 **Figure 02b - TE landscape with age**  
 
-[Figure 02b - TE landscape with age PDF](figures/02b_TE_landscape_age.pdf)  
+![Figure 02b - TE landscape with age PDF](figures/02b_TE_landscape_age.pdf)  
 Figure 02. *These two figures show the distribution of transposable elements (TEs) in the genome: (a) based on their divergence from the consensus sequence, and (b) based on the estimated insertion age (in million years) using the substitution rate. The X-axis represents (a) percent divergence and (b) estimated insertion age, while the Y-axis shows the sequence amount in Mbp for each TE superfamily. Peaks at low divergence (or low age) indicate recent TE activity, whereas broader peaks at higher values reflect older waves of insertions.*  
   
 ### Figure 03 - Genome circular overview  
