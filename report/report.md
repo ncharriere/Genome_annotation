@@ -114,7 +114,7 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 
 Figure 07. *The functional annotation shows that most of the 36,678 filtered genes could be assigned a putative function based on sequence similarity. Using TAIR10, 35,827 genes (≈97.7%) received a BLAST hit, while 29,305 genes (≈79.9%) matched proteins in UniProt. The higher success rate with TAIR10 likely reflects its close phylogenetic relationship to the annotated species. Overall, the high proportion of annotated genes indicates that the predicted gene set is of good quality and consistent with known Brassicales genomes.*
 
-### Figure 08 - Orthogroup Summary
+### Figure 08 - Orthogroup Summary  
 
 | Category                          | Value |
 |-----------------------------------|-------|
@@ -126,7 +126,7 @@ Figure 07. *The functional annotation shows that most of the 36,678 filtered gen
 
 Figure 08. *Using the Orthogroups.GeneCount.tsv file, we quantified gene sharing patterns across accessions. A total of 20,360 core orthogroups were identified, meaning they are shared by all compared accessions. No accession-specific orthogroups were detected, indicating that all orthogroups containing genes from the studied accession also include genes from at least one other accession. When comparing specifically with TAIR10, the analysis reveals 22,031 shared orthogroups, corresponding to 29,290 shared genes, demonstrating a high level of conservation between our annotated genome and the reference Arabidopsis thaliana TAIR10 annotation.*
 
-
+### Figure 09 - plot of number of orthogroups (gene families) against number of accession  
 
 
 
