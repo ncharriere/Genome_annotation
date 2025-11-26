@@ -100,6 +100,8 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 
 ### Figure 07 - functional annotation
 
+**Number of filtered genes**: 36,678
+
 **Genes with Blast hits**
 | TAIR10: | Uniprot: |
 |---------|----------|
