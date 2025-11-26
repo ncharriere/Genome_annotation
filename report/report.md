@@ -7,8 +7,15 @@ Charrière Noé - Altai-5 - https://github.com/ncharriere/Genome_annotation
 ## Introduction
 
 This report summarizes the analyses performed during the “Organization and Annotation of Eukaryote Genomes” practical course.  
-The goal was to perform transposable elements annotation and classification, annotation of genes with the MAKER Pipeline, orthology based gene functional annotation and genome comparisons.  
-All commands and tool versions are documented in the README; this report focuses exclusively on the obtained results.  
+The analyses included:
+- annotation and classification of transposable elements (TEs),
+- gene annotation using the MAKER pipeline,
+- assessment of annotation quality (AED and BUSCO),
+- functional annotation using homology searches,
+- orthology inference and comparative genomics across accessions.
+
+All commands, intermediate scripts and tool versions are documented in the GitHub repository (https://github.com/ncharriere/Genome_annotation).  
+Here, only the selected figures and tables are presented, each accompanied by an extended legend describing (1) what is shown, (2) how to interpret the figure, and (3) the key biological insights.  
 
 ## Results
 
@@ -16,7 +23,12 @@ All commands and tool versions are documented in the README; this report focuses
 
 ![Figure 01 - full LTR retrotransposon PDF](figures/01_LTR_Copia_Gypsy_cladelevel.png)  
 
-Figure 01. *This figure shows the number of full-length LTR retrotransposons detected in the genome. These complete elements include both LTRs and internal coding domains, indicating potentially intact or recently active transposons. Their abundance highlights the important role of LTR elements in shaping genome structure and evolution.*
+Figure 01. *Distribution de l’identité des LTR par clade pour les deux grandes superfamilles d’LTR (Copia — gauche, Gypsy — droite).*  
+*Chaque panneau (gauche = Copia, droite = Gypsy) affiche, pour plusieurs clades nominaux (ex. Tork, TAR, SIRE, Bianca, Tekay, Retand, Reina, CRM, Athila…), l’histogramme du nombre d’éléments (axe vertical ; échelles 0–12) en fonction de l’identité (axe horizontal ; échelles ~0.80–1.00).*  
+*L’« identity » représente la similarité entre LTRs jumelles (ou par rapport au consensus) et sert d’indicateur relatif de l’âge : des valeurs proches de 1.00 correspondent à des insertions récentes (peu divergentes) ; des valeurs plus basses indiquent des insertions plus anciennes.*  
+*Les petits pics/distributions au sein de chaque clade montrent combien d’éléments se regroupent autour d’une plage d’identité donnée.*  
+*Certains clades présentent des pics marqués à des identités élevées (≈0.95–1.00), ce qui indique des vagues récentes d’activité de LTR dans ces clades spécifiques.*  
+*D’autres clades montrent une distribution plus diffuse vers des identités plus faibles, témoignant d’insertions plus anciennes et divergeant. Cette répartition clade-dépendante suggère des dynamiques d’activité transposonales différenciées au sein des LTR, avec quelques clades ayant contribué récemment à l’expansion du génome.*
 
 ### Figure 02 - TE landscape
 
@@ -140,7 +152,11 @@ Figure 09. *This plot shows how many orthogroups (gene families) are shared acro
   
 
 
-
-
-
 - Riparian plots
+
+
+
+
+## Conclusion  
+
+Overall, the combination of TE annotation, gene annotation, functional annotation and comparative genomics provides a coherent and high-quality characterization of the genome. TE analyses highlight recent activity of LTR elements, gene annotation metrics confirm strong support for most predicted genes, and orthology-based comparisons reveal strong conservation with reference Brassicaceae genomes. These results illustrate both the strengths and the challenges of eukaryotic genome annotation and highlight the robustness of the pipelines used.
