@@ -23,12 +23,12 @@ Here, only the selected figures and tables are presented, each accompanied by an
 
 ![Figure 01 - full LTR retrotransposon PDF](figures/01_LTR_Copia_Gypsy_cladelevel.png)  
 
-Figure 01. *Distribution de l’identité des LTR par clade pour les deux grandes superfamilles d’LTR (Copia — gauche, Gypsy — droite).*  
-*Chaque panneau (gauche = Copia, droite = Gypsy) affiche, pour plusieurs clades nominaux (ex. Tork, TAR, SIRE, Bianca, Tekay, Retand, Reina, CRM, Athila…), l’histogramme du nombre d’éléments (axe vertical ; échelles 0–12) en fonction de l’identité (axe horizontal ; échelles ~0.80–1.00).*  
-*L’« identity » représente la similarité entre LTRs jumelles (ou par rapport au consensus) et sert d’indicateur relatif de l’âge : des valeurs proches de 1.00 correspondent à des insertions récentes (peu divergentes) ; des valeurs plus basses indiquent des insertions plus anciennes.*  
-*Les petits pics/distributions au sein de chaque clade montrent combien d’éléments se regroupent autour d’une plage d’identité donnée.*  
-*Certains clades présentent des pics marqués à des identités élevées (≈0.95–1.00), ce qui indique des vagues récentes d’activité de LTR dans ces clades spécifiques.*  
-*D’autres clades montrent une distribution plus diffuse vers des identités plus faibles, témoignant d’insertions plus anciennes et divergeant. Cette répartition clade-dépendante suggère des dynamiques d’activité transposonales différenciées au sein des LTR, avec quelques clades ayant contribué récemment à l’expansion du génome.*
+Figure 01. *Distribution of LTR identity across clades for the two major LTR superfamilies (Copia — left; Gypsy — right).*
+*Each panel (Copia on the left, Gypsy on the right) shows, for several named clades (e.g., Tork, TAR, SIRE, Bianca, Tekay, Retand, Reina, CRM, Athila…), a histogram of the number of elements (vertical axis; scale 0–12) as a function of their identity (horizontal axis; roughly 0.80–1.00).*  
+*“Identity” represents the similarity between paired LTRs (or to the consensus sequence) and serves as a proxy for insertion age: values close to 1.00 correspond to recent insertions with little divergence, while lower values indicate older, more degraded insertions.*  
+*The peaks or distributions within each clade reflect how many elements group within a given identity range.
+Some clades display pronounced peaks at high identity values (≈0.95–1.00), indicating recent waves of LTR activity in these specific lineages.*  
+*Other clades show broader distributions skewed toward lower identities, consistent with older, more diverged insertions. This clade-dependent pattern suggests differentiated transpositional dynamics among LTR families, with some clades contributing more recently to genome expansion.*
 
 ### Figure 02 - TE landscape
 
