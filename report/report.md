@@ -116,7 +116,9 @@ Figure 07. *The functional annotation shows that most of the 36,678 filtered gen
 
 ### Figure 08 - 
 
-| ====== RESULTS ====== |
+**Orthogroup Summary**  
+| Category                          | Value |
+|-----------------------------------|-------|
 | Core orthogroups:                 | 20360 |
 | Accession-specific orthogroups:   | 0     |
 | Accession-specific genes:         | 0     |
