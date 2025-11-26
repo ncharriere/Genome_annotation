@@ -128,6 +128,12 @@ Figure 08. *Using the Orthogroups.GeneCount.tsv file, we quantified gene sharing
 
 ### Figure 09 - plot of number of orthogroups (gene families) against number of accession  
 
+![pangenome frequency plot](figures/09-pangenome_frequency_plot.pdf)  
+
+Figure 09. *This plot shows how many orthogroups (gene families) are shared across different numbers of accessions. The left side of the distribution corresponds to rare or accession-specific orthogroups, while the right side represents core orthogroups found in all accessions. In our dataset, the curve is strongly skewed toward the right, indicating that the vast majority of orthogroups are shared by all accessions. Very few orthogroups occur in only one or a few accessions, suggesting a highly conserved gene content and limited accession-specific gene innovation.*
+
+
+  
 
 
 
