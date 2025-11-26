@@ -36,7 +36,7 @@ Figure 02b. *This figure show the distribution of transposable elements (TEs) in
 
 ![Figure 03a - Contigs ordered by size](figures/03a-TE_and_genes_density_contigs_size.png)  
 
-Figure 03a. *This circular plot shows the distribution of transposable elements (TEs) by superfamily and the proportion of genes across contigs, which are ordered by decreasing size. Each ring represents a different TE superfamily or gene density. Peaks indicate regions with higher TE or gene content. This view highlights the overall structure of the genome and major TE-rich or gene-rich regions. (I didn't put the intermediate versions without the gene density, it didn't add anything)*
+Figure 03a. *This circular plot shows the distribution of transposable elements (TEs) by superfamily and the proportion of genes across contigs, which are ordered by decreasing size. Each ring represents a different TE superfamily or gene density. The gene density is obtained by gene annotation with MAKER (to be precise it's the merging and filtering of the MAKER output that gave the gene density). Peaks indicate regions with higher TE or gene content. This view highlights the overall structure of the genome and major TE-rich or gene-rich regions. (I didn't put the intermediate versions without the gene density, it didn't add anything)*
 
 #### Figure 03b - Contigs ordered by chromosomal location  
 
@@ -84,4 +84,11 @@ Figure 03d. *This final circos plot builds on Figure 03b by adding the locations
 
 Figure 04. *Summary of transposable element (TE) annotation from EDTA. Columns indicate the TE class, subtype (if applicable), number of sequences, total bases masked, and percentage of the genome masked. Totals for all elements are provided at the bottom.*
 
-### Figure 05 - 
+### Figure 05 - AED score distribution plots
+
+![Figure 05a - AED cumulative barplot](figures/05a-AED_cumulative_barplot.png)  
+
+![Figure 05b - AED cumulative plot](figures/05b-AED_cumulative_plot.png)  
+
+Figure 05. *Distribution of AED (Annotation Edit Distance) scores for gene models predicted in the genome. Panel (a) shows a cumulative barplot of AED scores, indicating the proportion of genes with different levels of agreement to supporting evidence (transcripts or protein homology). Panel (b) shows a cumulative distribution plot of AED scores across all gene models. Low AED scores (closer to 0) indicate gene models well supported by evidence, while higher scores (closer to 1) represent less supported predictions. Overall, these plots provide an overview of the quality and reliability of the gene annotation. Nearly 100% of gene models have AED ≤ 0.5, reflecting high annotation quality.*
+
