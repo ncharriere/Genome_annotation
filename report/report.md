@@ -114,9 +114,8 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 
 Figure 07. *The functional annotation shows that most of the 36,678 filtered genes could be assigned a putative function based on sequence similarity. Using TAIR10, 35,827 genes (≈97.7%) received a BLAST hit, while 29,305 genes (≈79.9%) matched proteins in UniProt. The higher success rate with TAIR10 likely reflects its close phylogenetic relationship to the annotated species. Overall, the high proportion of annotated genes indicates that the predicted gene set is of good quality and consistent with known Brassicales genomes.*
 
-### Figure 08 - 
+### Figure 08 - Orthogroup Summary
 
-**Orthogroup Summary**  
 | Category                          | Value |
 |-----------------------------------|-------|
 | Core orthogroups:                 | 20360 |
