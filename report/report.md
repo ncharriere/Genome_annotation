@@ -101,5 +101,6 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 ### Figure 07 - functional annotation
 
 | Genes with Blast hits |                | Genes without Blast hits |               |
-TAIR10: 35827           | Uniprot: 29305 | TAIR10: 851              | Uniprot: 7373 |
+|-----------------------|----------------|--------------------------|---------------|
+| TAIR10: 35827         | Uniprot: 29305 | TAIR10: 851              | Uniprot: 7373 |
 
