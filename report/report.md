@@ -36,13 +36,18 @@ Figure 01. *Distribution de l’identité des LTR par clade pour les deux grande
 
 ![Figure 02a - TE landscape PDF](figures/02a_TE_landscape.png)  
 
-Figure 02a. *This figure show the distribution of transposable elements (TEs) in the genome based on their divergence from the consensus sequence. The X-axis represents percent divergence, while the Y-axis shows the sequence amount in Mbp for each TE superfamily. Peaks at low divergence (or low age) indicate recent TE activity, whereas broader peaks at higher values reflect older waves of insertions.*  
+Figure 02a. *TE abundance plotted against sequence divergence from consensus.*  
+*The X-axis shows percent divergence; the Y-axis indicates megabases of sequence. Low divergence corresponds to young insertions; high divergence to older ones.*  
+*Several TE families show peaks at low divergence, indicating recent or ongoing TE activity. This is particularly strong for LTR retrotransposons, consistent with the high number of full-length LTRs in Figure 01.*
 
 #### Figure 02b - TE landscape with age  
 
 ![Figure 02b - TE landscape with age PDF](figures/02b_TE_landscape_age.png)  
 
-Figure 02b. *This figure show the distribution of transposable elements (TEs) in the genome based on the estimated insertion age (in million years) using the substitution rate. The X-axis represents estimated insertion age, while the Y-axis shows the sequence amount in Mbp for each TE superfamily.*
+Figure 02b. *TE age distribution based on estimated substitution rates.*  
+*The X-axis shows estimated insertion age in million years; the Y-axis the total Mbp of TE content.*  
+*The distribution confirms several waves of LTR retrotransposition, including young insertions <2 My old. Such recent bursts may contribute significantly to local genome expansion and structural variation.*  
+*A plausible explanation for the 6–8 Myr peak is an ancient evolutionary event that temporarily disrupted transposon silencing. This could include an old hybridization event, a genome-wide epigenetic crisis, a period of strong environmental stress, or large-scale chromosomal rearrangements. Such events could have triggered bursts of LTR activity in Brassicaceae and would fit well with the observed age distribution.*
 
 ### Figure 03 - Genome circular overview
 
