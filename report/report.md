@@ -116,15 +116,19 @@ Figure 07. *The functional annotation shows that most of the 36,678 filtered gen
 
 ### Figure 08 - 
 
+| ====== RESULTS ====== |
+| Core orthogroups:                 | 20360 |
+| Accession-specific orthogroups:   | 0     |
+| Accession-specific genes:         | 0     |
+| Shared with TAIR10 (orthogroups): | 22031 |
+| Shared with TAIR10 (genes):       | 29290 |
+
+Figure 08. *Using the Orthogroups.GeneCount.tsv file, we quantified gene sharing patterns across accessions. A total of 20,360 core orthogroups were identified, meaning they are shared by all compared accessions. No accession-specific orthogroups were detected, indicating that all orthogroups containing genes from the studied accession also include genes from at least one other accession. When comparing specifically with TAIR10, the analysis reveals 22,031 shared orthogroups, corresponding to 29,290 shared genes, demonstrating a high level of conservation between our annotated genome and the reference Arabidopsis thaliana TAIR10 annotation.*
 
 
 
 
-missing:
-Number of Genes in 
-- Core orthogroups, shared by all accessions
-- Accession Specific orthogropups
-- Shared with TAIR10
+
 
 - plot of number of orthogroups (gene families) against number of accession 
 -> pangenome_frequency_plot.pdf
