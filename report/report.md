@@ -98,7 +98,7 @@ Figure 05. *Distribution of AED (Annotation Edit Distance) scores for gene model
 
 Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10 lineage dataset (n = 4596 BUSCO groups). Panel (a) shows results for the protein annotation: 95.0% of BUSCOs are complete (93.5% single-copy, 1.5% duplicated), 0.4% are fragmented, and 4.6% are missing. Panel (b) shows results for the transcript annotation: 96.4% complete (92.3% single-copy, 4.1% duplicated), 0.4% fragmented, and 3.2% missing. These high percentages of complete BUSCOs indicate a high-quality and comprehensive annotation for both protein-coding genes and transcript models.*
 
-### Figure 07 - functional annotation
+### Figure 07 - functional annotation  
 
 **Number of filtered genes**: 36,678
 
@@ -112,3 +112,21 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 |---------|----------|
 | 851     | 7373     |
 
+Figure 07. *The functional annotation shows that most of the 36,678 filtered genes could be assigned a putative function based on sequence similarity. Using TAIR10, 35,827 genes (≈97.7%) received a BLAST hit, while 29,305 genes (≈79.9%) matched proteins in UniProt. The higher success rate with TAIR10 likely reflects its close phylogenetic relationship to the annotated species. Overall, the high proportion of annotated genes indicates that the predicted gene set is of good quality and consistent with known Brassicales genomes.*
+
+### Figure 08 - 
+
+
+
+
+
+missing:
+Number of Genes in 
+- Core orthogroups, shared by all accessions
+- Accession Specific orthogropups
+- Shared with TAIR10
+
+- plot of number of orthogroups (gene families) against number of accession 
+-> pangenome_frequency_plot.pdf
+
+- Riparian plots
