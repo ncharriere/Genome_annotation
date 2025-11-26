@@ -97,3 +97,9 @@ Figure 05. *Distribution of AED (Annotation Edit Distance) scores for gene model
 ![Figure 06 - busco assessment Results](figures/06-busco_figure.png)  
 
 Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10 lineage dataset (n = 4596 BUSCO groups). Panel (a) shows results for the protein annotation: 95.0% of BUSCOs are complete (93.5% single-copy, 1.5% duplicated), 0.4% are fragmented, and 4.6% are missing. Panel (b) shows results for the transcript annotation: 96.4% complete (92.3% single-copy, 4.1% duplicated), 0.4% fragmented, and 3.2% missing. These high percentages of complete BUSCOs indicate a high-quality and comprehensive annotation for both protein-coding genes and transcript models.*
+
+### Figure 07 - functional annotation
+
+| Genes with Blast hits |                | Genes without Blast hits |               |
+TAIR10: 35827           | Uniprot: 29305 | TAIR10: 851              | Uniprot: 7373 |
+
