@@ -23,7 +23,7 @@ Here, only the selected figures and tables are presented, each accompanied by an
 
 ![Figure 01 - full LTR retrotransposon PDF](figures/01_LTR_Copia_Gypsy_cladelevel.png)  
 
-Figure 01. *Distribution of LTR identity across clades for the two major LTR superfamilies (Copia — left; Gypsy — right).*
+Figure 01. *Distribution of LTR identity across clades for the two major LTR superfamilies (Copia on the left; Gypsy on the right).*
 *Each panel (Copia on the left, Gypsy on the right) shows, for several named clades (e.g., Tork, TAR, SIRE, Bianca, Tekay, Retand, Reina, CRM, Athila…), a histogram of the number of elements (vertical axis; scale 0–12) as a function of their identity (horizontal axis; roughly 0.80–1.00).*  
 *“Identity” represents the similarity between paired LTRs (or to the consensus sequence) and serves as a proxy for insertion age: values close to 1.00 correspond to recent insertions with little divergence, while lower values indicate older, more degraded insertions.*  
 *The peaks or distributions within each clade reflect how many elements group within a given identity range.
@@ -46,8 +46,8 @@ Figure 02a. *TE abundance plotted against sequence divergence from consensus.*
 
 Figure 02b. *TE age distribution based on estimated substitution rates.*  
 *The X-axis shows estimated insertion age in million years; the Y-axis the total Mbp of TE content.*  
-*The distribution confirms several waves of LTR retrotransposition, including young insertions <2 My old. Such recent bursts may contribute significantly to local genome expansion and structural variation.*  
-*A plausible explanation for the 6–8 Myr peak is an ancient evolutionary event that temporarily disrupted transposon silencing. This could include an old hybridization event, a genome-wide epigenetic crisis, a period of strong environmental stress, or large-scale chromosomal rearrangements. Such events could have triggered bursts of LTR activity in Brassicaceae and would fit well with the observed age distribution.*
+*The distribution confirms several waves of LTR retrotransposition, including young insertions < 2 My old. Such recent bursts may contribute significantly to local genome expansion and structural variation.*  
+*A plausible explanation for the 6 – 8 Myr peak is an ancient evolutionary event that temporarily disrupted transposon silencing. This could include an old hybridization event, a genome-wide epigenetic crisis, a period of strong environmental stress, or large-scale chromosomal rearrangements. Such events could have triggered bursts of LTR activity in Brassicaceae and would fit well with the observed age distribution.*
 
 ### Figure 03 - Genome circular overview
 
@@ -102,7 +102,7 @@ Figure 03d. *This final circos plot builds on Figure 03b by adding the locations
 | Total     | -              | 29970  | 24230307  | 15.05%   |
 
 Figure 04. *Summary of transposable element (TE) annotation from EDTA. Columns indicate the TE class, subtype (if applicable), number of sequences, total bases masked, and percentage of the genome masked. Totals for all elements are provided at the bottom.*  
-*The genome is ~15% repetitive, dominated by Gypsy LTRs and Helitrons—consistent with Brassicaceae genomes.*
+*The genome is ~15% repetitive, dominated by Gypsy LTRs and Helitrons, which is consistent with Brassicaceae genomes.*
 
 ### Figure 05 - AED score distribution plots  
 
@@ -154,15 +154,19 @@ Figure 09. *This plot shows how many orthogroups (gene families) are shared acro
 
 ### Figure 10 - Riparian plots
 
+![riparian plot](figures/10-Etna_2_geneOrder.rip.png)  
 
-  
+Figure 10. *Riparian plot showing gene synteny across multiple Brassicaceae genomes.*  
+*Each horizontal bar represents a genome or accession (Taz_0, TAIR10, Ice_1, Etna_2 and my Altai_5), with genes ordered according to their inferred chromosomal positions based on Genespace analysis. Colored bands connect orthologous genes between genomes. Continuous, dense bands indicate conserved syntenic blocks, while gaps or thinning of bands reflect gene insertions/deletions, loss, or structural rearrangements.*
+*The plot demonstrates that gene order is largely conserved across all accessions, consistent with the high number of core orthogroups reported in Figures 8–9. However, some contigs in our accession are oriented opposite to the other accessions. Most of the Altai-5 genome can be rearranged to match the other accessions, except for contig ptg000007l, which appears partially linked to chromosomes 2 and 5, a configuration that is most likely an error.*
 
+### Figure 11 - Genespace dotplots
 
-- Riparian plots
+![Genespace dotplots](figures/)
 
 
 
 
 ## Conclusion  
 
-Overall, the combination of TE annotation, gene annotation, functional annotation and comparative genomics provides a coherent and high-quality characterization of the genome. TE analyses highlight recent activity of LTR elements, gene annotation metrics confirm strong support for most predicted genes, and orthology-based comparisons reveal strong conservation with reference Brassicaceae genomes. These results illustrate both the strengths and the challenges of eukaryotic genome annotation and highlight the robustness of the pipelines used.
+The analyses performed provide a comprehensive characterization of the Altai-5 genome. Transposable element annotation highlights recent LTR activity and a TE composition typical of Brassicaceae. Gene annotation quality is high, as reflected by excellent AED and BUSCO scores, and functional annotation assigns putative roles to nearly all predicted genes, particularly using the TAIR10 reference. Comparative genomics and orthology analyses reveal strong conservation with reference genomes and across accessions, while synteny visualizations from Genespace confirm largely preserved gene order with a few structural discrepancies. Altogether, these results demonstrate both the complexity of eukaryotic genome annotation and the robustness of the pipelines applied in this study.
