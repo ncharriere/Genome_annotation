@@ -56,7 +56,7 @@ Figure 03c. *This circular plot overlays rRNA loci on the previous visualization
 
 Figure 03d. *This final circos plot builds on Figure 03b by adding the locations of centromeres (in blue) and chromosome boundaries (in red). Most centromeres appear split across different contigs, which is expected due to the highly repetitive nature of these regions.*
 
-### Figure 04 - Summary table of EDTA
+### Figure 04 - Summary table of EDTA  
 
 | Class     | Subtype        | Count  | bp Masked | % Masked |
 |-----------|----------------|-------:|----------:|---------:|
@@ -84,7 +84,7 @@ Figure 03d. *This final circos plot builds on Figure 03b by adding the locations
 
 Figure 04. *Summary of transposable element (TE) annotation from EDTA. Columns indicate the TE class, subtype (if applicable), number of sequences, total bases masked, and percentage of the genome masked. Totals for all elements are provided at the bottom.*
 
-### Figure 05 - AED score distribution plots
+### Figure 05 - AED score distribution plots  
 
 ![Figure 05a - AED cumulative barplot](figures/05a-AED_cumulative_barplot.png)  
 
@@ -92,3 +92,8 @@ Figure 04. *Summary of transposable element (TE) annotation from EDTA. Columns i
 
 Figure 05. *Distribution of AED (Annotation Edit Distance) scores for gene models predicted in the genome. Panel (a) shows a cumulative barplot of AED scores, indicating the proportion of genes with different levels of agreement to supporting evidence (transcripts or protein homology). Panel (b) shows a cumulative distribution plot of AED scores across all gene models. Low AED scores (closer to 0) indicate gene models well supported by evidence, while higher scores (closer to 1) represent less supported predictions. Overall, these plots provide an overview of the quality and reliability of the gene annotation. Nearly 100% (0.953% to be precise) of gene models have AED ≤ 0.5, reflecting high annotation quality.*
 
+### Figure 06 - busco assessment Results  
+
+![Figure 06 - busco assessment Results](figures/06-busco_figure.png)  
+
+Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10 lineage dataset (n = 4596 BUSCO groups). Panel (a) shows results for the protein annotation: 95.0% of BUSCOs are complete (93.5% single-copy, 1.5% duplicated), 0.4% are fragmented, and 4.6% are missing. Panel (b) shows results for the transcript annotation: 96.4% complete (92.3% single-copy, 4.1% duplicated), 0.4% fragmented, and 3.2% missing. These high percentages of complete BUSCOs indicate a high-quality and comprehensive annotation for both protein-coding genes and transcript models.*
