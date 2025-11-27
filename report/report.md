@@ -148,24 +148,30 @@ Figure 08. *Using the Orthogroups.GeneCount.tsv file, we quantified gene sharing
 
 ### Figure 09 - plot of number of orthogroups (gene families) against number of accession  
 
-![pangenome frequency plot](figures/09-pangenome_frequency_plot.png)  
+![Figure 09 - pangenome frequency plot](figures/09-pangenome_frequency_plot.png)  
 
 Figure 09. *This plot shows how many orthogroups (gene families) are shared across different numbers of accessions. The left side of the distribution corresponds to rare or accession-specific orthogroups, while the right side represents core orthogroups found in all accessions. In our dataset, the curve is strongly skewed toward the right, indicating that the vast majority of orthogroups are shared by all accessions. Very few orthogroups occur in only one or a few accessions, suggesting a highly conserved gene content and limited accession-specific gene innovation.*
 
 ### Figure 10 - Riparian plots
 
-![riparian plot](figures/10-Etna_2_geneOrder.rip.png)  
+![Figure 10 - riparian plot](figures/10-Etna_2_geneOrder.rip.png)  
 
 Figure 10. *Riparian plot showing gene synteny across multiple Brassicaceae genomes.*  
 *Each horizontal bar represents a genome or accession (Taz_0, TAIR10, Ice_1, Etna_2 and my Altai_5), with genes ordered according to their inferred chromosomal positions based on Genespace analysis. Colored bands connect orthologous genes between genomes. Continuous, dense bands indicate conserved syntenic blocks, while gaps or thinning of bands reflect gene insertions/deletions, loss, or structural rearrangements.*
 *The plot demonstrates that gene order is largely conserved across all accessions, consistent with the high number of core orthogroups reported in Figures 8–9. However, some contigs in our accession are oriented opposite to the other accessions. Most of the Altai-5 genome can be rearranged to match the other accessions, except for contig ptg000007l, which appears partially linked to chromosomes 2 and 5, a configuration that is most likely an error.*
+*This riparian plot is the only one shown, as additional plots are available but do not provide further informative differences, making this representation sufficient.*
 
 ### Figure 11 - Genespace dotplots
 
-![Genespace dotplots](figures/)
+![Figure 11a - Genespace dotplots Taz0 vs TAIR10](figures/11a-Taz_0_vs_TAIR10.rawHits_cleaned.png)  
 
+Figure 11a. *Taz_0 vs TAIR10*  
+*This dotplot shows the alignment of Taz_0 contigs against the TAIR10 reference genome. Each dot represents an orthologous gene pair, and the overall diagonal indicates conserved gene order. Deviations from the main diagonal correspond to insertions, deletions, or inversions. The clear diagonal pattern reflects the expected collinearity between Taz_0 and TAIR10, with minor structural variations typical of different accessions.*  
 
+![Figure 11b - Genespace dotplots Altai5 vs TAIR10](figures/11b-Altai_5_vs_TAIR10_rawHits_cleaned.png)  
 
+Figure 11b. *Altai-5 vs TAIR10*  
+*This dotplot shows the alignment of Altai-5 contigs against the TAIR10 reference genome. Unlike Figure 11a, the Altai-5 contigs are ordered by size rather than by chromosomal position, leading to an apparently disordered alignment. Despite this, the plot reveals the same structural features highlighted in Figure 10, including the partial linkage of contig ptg000007l to chromosomes 2 and 5. This confirms that the observed discrepancies reflect contig ordering rather than biological rearrangements, supporting the interpretation provided for the riparian plot.*  
 
 ## Conclusion  
 
