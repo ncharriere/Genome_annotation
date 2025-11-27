@@ -27,7 +27,7 @@ Figure 01. *Distribution of LTR identity across clades for the two major LTR sup
 *Each panel (Copia on the left, Gypsy on the right) shows, for several named clades (e.g., Tork, TAR, SIRE, Bianca, Tekay, Retand, Reina, CRM, Athila…), a histogram of the number of elements (vertical axis; scale 0–12) as a function of their identity (horizontal axis; roughly 0.80–1.00).*  
 *“Identity” represents the similarity between paired LTRs (or to the consensus sequence) and serves as a proxy for insertion age: values close to 1.00 correspond to recent insertions with little divergence, while lower values indicate older, more degraded insertions.*  
 *The peaks or distributions within each clade reflect how many elements group within a given identity range.
-Some clades display pronounced peaks at high identity values (≈0.95–1.00), indicating recent waves of LTR activity in these specific lineages.*  
+Some clades display pronounced peaks at high identity values (=0.95–1.00), indicating recent waves of LTR activity in these specific lineages.*  
 *Other clades show broader distributions skewed toward lower identities, consistent with older, more diverged insertions. This clade-dependent pattern suggests differentiated transpositional dynamics among LTR families, with some clades contributing more recently to genome expansion.*
 
 ### Figure 02 - TE landscape
@@ -132,7 +132,7 @@ Figure 06. *BUSCO analysis of the genome annotations using the Brassicales odb10
 |---------|----------|
 | 851     | 7373     |
 
-Figure 07. *The functional annotation shows that most of the 36,678 filtered genes could be assigned a putative function based on sequence similarity. Using TAIR10, 35,827 genes (≈97.7%) received a BLAST hit, while 29,305 genes (≈79.9%) matched proteins in UniProt. The higher success rate with TAIR10 likely reflects its close phylogenetic relationship to the annotated species. Overall, the high proportion of annotated genes indicates that the predicted gene set is of good quality and consistent with known Brassicales genomes.*
+Figure 07. *The functional annotation shows that most of the 36,678 filtered genes could be assigned a putative function based on sequence similarity. Using TAIR10, 35,827 genes (=97.7%) received a BLAST hit, while 29,305 genes (=79.9%) matched proteins in UniProt. The higher success rate with TAIR10 likely reflects its close phylogenetic relationship to the annotated species. Overall, the high proportion of annotated genes indicates that the predicted gene set is of good quality and consistent with known Brassicales genomes.*
 
 ### Figure 08 - Orthogroup Summary  
 
